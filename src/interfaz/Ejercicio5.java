@@ -67,7 +67,6 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel2.setText("numero de cuenta (Davivienda)");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
 
-        txtNumeroCuenta.setEditable(false);
         txtNumeroCuenta.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtNumeroCuentaKeyTyped(evt);
@@ -80,7 +79,6 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel3.setText("identificacion del usuario");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
-        txtId.setEditable(false);
         txtId.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtIdKeyTyped(evt);
@@ -93,7 +91,6 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel4.setText("saldo actual de la cuenta");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
-        txtSaldoActual.setEditable(false);
         txtSaldoActual.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtSaldoActualKeyTyped(evt);
@@ -106,7 +103,6 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel5.setText("interes anual (porcentaje)");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        txtInteres.setEditable(false);
         txtInteres.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtInteresKeyTyped(evt);
